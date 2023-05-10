@@ -27,7 +27,7 @@ const page = async () => {
     })
   );
 
-  console.log('incomingFriendRFequest', incomingFriendRequests)
+  // console.log('incomingFriendRFequest', incomingFriendRequests)
 
   return (
     <main className="pt-8">
