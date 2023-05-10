@@ -20,7 +20,6 @@ const FriendRequests: FC<FriendRequestProps> = ({
   >(incomingFriendRequests);
 
   const acceptedFriend = async (senderId: string) => {
-    console.log(`ici`)
     await axios.post("/api/friends/accept", { id: senderId });
 
     setFriendsRequests((prev) =>
